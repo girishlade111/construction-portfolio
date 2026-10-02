@@ -1,32 +1,41 @@
 # Construction Portfolio
 
-A professional construction company portfolio website showcasing services, projects, and team members.
+A professional, multi-page static website for a construction company — showcasing services, completed projects, team members, company strengths, and contact details.
 
-## Website Structure
+## Pages
 
-- **index.html** - Home page
-- **company.html** - Company information
-- **core-business.html** - Core business services
-- **projects.html** - Project showcase
-- **people.html** - Team members
-- **strengths.html** - Company strengths
-- **contact.html** - Contact information
+- **index.html** — Home / landing page
+- **company.html** — Company overview and history
+- **core-business.html** — Core business services
+- **projects.html** — Project showcase
+- **people.html** — Team members
+- **strengths.html** — Company strengths
+- **contact.html** — Contact information
 
-## Technologies Used
+## Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript
+- **HTML5** — semantic page structure
+- **CSS3** — custom styling (`css/style.css`)
+- **Vanilla JavaScript** — interactivity (`js/`)
 
-## Setup
+## Quick Start
 
-1. Clone the repository
-2. Open `index.html` in your browser
+```bash
+git clone https://github.com/girishlade111/construction-portfolio.git
+cd construction-portfolio
+# open index.html in any browser — no build step needed
+```
 
-## Deployment
+Or serve locally:
 
-This site can be deployed to any static hosting service like GitHub Pages, Netlify, or Vercel.
+```bash
+npx serve .
+```
 
-## License
+## Deploy Notes
 
-This project is proprietary and confidential.
+Fully static — deploy anywhere: GitHub Pages, Cloudflare Pages, Netlify, or Vercel. Live via GitHub Pages.
+
+## Built by Girish Lade
+
+Crafted by [Girish Lade](https://ladestack.in) — explore more free tools and projects at [ladestack.in](https://ladestack.in).
